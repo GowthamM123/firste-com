@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.intro{
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    animation-name: intro;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards; 
+    z-index: 1;
+  
+   
+}
+@keyframes logo{
+    100%{
+        width: 80px;
+        height: 80px;
+        left: 0px; 
+        animation-iteration-count: 1;    
+    }
+}
+@keyframes intro{
+    100%{
+        display:none;
+    }
+}
+.intro_logo{
+   margin-top: 20%;
+   margin-left: 40%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 25px;
+   
+   
+}
+.logo_an{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 80px;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;   
+    font-family: 'Poppins', sans-serif;
+}
+
+#sign {
+    margin-left: 85%;
+    padding-top:10px ;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.sign_2{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 50px;
+    position: relative; 
+    font-size: 25px;
+}
+.sign_3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: black;
+    border-top-left-radius:30px ;
+    border-top-right-radius: 30px;
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.sign_input{
+    margin-top: 50px;
+}
+
+.sign_3 input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: solid 2px;
+    border-color:  white;
+    border-radius: 10px;
+    color: grey;
+    font-size: 23px;
+    margin-top: 25px;
+   
+   
+}
+.sign_3 input:focus{
+    outline: none;
+}
+#sign_up_button{
+    margin-top: 50px;
+    
+}
+#sign_up_button:active{
+    transform: scale(0.97);
+    background-color: gray;
+}
+.sign_3 button{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#sign_para{
+    padding-top: 20px;
+}
+.sign_icon{
+    margin-top: 50px;
+}
+.sign_icon i{
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
